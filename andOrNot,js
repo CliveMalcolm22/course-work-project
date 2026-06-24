@@ -1,0 +1,39 @@
+let val1=true
+let val2=true
+let result1=val1&&val2
+
+console.log('val1=${val1} val2={val2} val1&&val2={val1&&val2}')
+
+let fred_age=17
+let fred_balance=100000
+
+//*if fred is age is greater than 18 and has more than 30k his account
+let is_greater_than_18=fred_age>18 //ttrue or false
+console.log('Is fred age greater than 18 ${is_greater_than_18}')
+let has_more_than_30k=fred_balance>30000
+console.log('fred has more than 30k ${has_more_than_30k}')
+console.log('fred is age is greater than 18 and has more than 30k in his account ${is_greater_than_18&&has_more_than_30k}')
+
+//fred_age>18&&fred_balance>30000
+let simplifred=fred_age>18&&fred_balance>30000
+console.log('simplifred ${simplifred}')
+console.log('further simplification is ${fred_age>18&&fred_balance>30000}')
+
+
+let  is_greater_than_18=james_age>18 //true or false
+console.log('Is james age greater than 18 ${has_more_than_18}')
+let has_more_than_30k=jame_balance>30000
+console.log('James has more than 18 and has more than 30k in his account ${is_greater_than_18&&has_more_than_30k}')
+
+//james_age>18&&james_balance>30000
+let simplified=james_age>18&&james_balance>30000
+console.log('simplified ${simplified}')
+console.log('further simpification is ${james_age>18&&james_balance>30000}')
+
+console.log('james is age is greater than 18 or he has more than 30k in his account ${is_greater_than_18||has_than_30k')
+
+/*
+Or ateleast one stament has to be true for the whole stament to be true
+*/
+console.log('This is not true = ${!true}')
+console.log('This is not false = ${!false}')
